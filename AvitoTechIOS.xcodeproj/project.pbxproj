@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		578FFA6726E89010002D34F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA6626E89010002D34F1 /* AppDelegate.swift */; };
 		578FFA6926E89010002D34F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA6826E89010002D34F1 /* SceneDelegate.swift */; };
-		578FFA6B26E89010002D34F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA6A26E89010002D34F1 /* ViewController.swift */; };
+		578FFA6B26E89010002D34F1 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA6A26E89010002D34F1 /* EmployeesViewController.swift */; };
 		578FFA6E26E89010002D34F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FFA6C26E89010002D34F1 /* Main.storyboard */; };
 		578FFA7026E89011002D34F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578FFA6F26E89011002D34F1 /* Assets.xcassets */; };
 		578FFA7326E89011002D34F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FFA7126E89011002D34F1 /* LaunchScreen.storyboard */; };
+		578FFA8826E8F813002D34F1 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA8626E8F813002D34F1 /* EmployeeCell.swift */; };
+		578FFA8926E8F813002D34F1 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 578FFA8726E8F813002D34F1 /* EmployeeCell.xib */; };
+		578FFA8D26E9DF36002D34F1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA8C26E9DF36002D34F1 /* Models.swift */; };
+		578FFA9026E9E14D002D34F1 /* EmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA8F26E9E14D002D34F1 /* EmployeeService.swift */; };
+		578FFA9426E9EA36002D34F1 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA9326E9EA36002D34F1 /* Errors.swift */; };
+		578FFA9826EA0F63002D34F1 /* EmployeesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA9726EA0F63002D34F1 /* EmployeesPresenter.swift */; };
+		578FFA9C26EA0F91002D34F1 /* EmployeesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFA9B26EA0F91002D34F1 /* EmployeesInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		578FFA6326E89010002D34F1 /* AvitoTechIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvitoTechIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578FFA6626E89010002D34F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578FFA6826E89010002D34F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		578FFA6A26E89010002D34F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578FFA6A26E89010002D34F1 /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
 		578FFA6D26E89010002D34F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578FFA6F26E89011002D34F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578FFA7226E89011002D34F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578FFA7426E89011002D34F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578FFA8626E8F813002D34F1 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		578FFA8726E8F813002D34F1 /* EmployeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		578FFA8C26E9DF36002D34F1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		578FFA8F26E9E14D002D34F1 /* EmployeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeService.swift; sourceTree = "<group>"; };
+		578FFA9326E9EA36002D34F1 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		578FFA9726EA0F63002D34F1 /* EmployeesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesPresenter.swift; sourceTree = "<group>"; };
+		578FFA9B26EA0F91002D34F1 /* EmployeesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,86 @@
 		578FFA6526E89010002D34F1 /* AvitoTechIOS */ = {
 			isa = PBXGroup;
 			children = (
+				578FFAA826EAC2C5002D34F1 /* Application */,
+				578FFAAA26EAC2EA002D34F1 /* Models */,
+				578FFAAC26EAC301002D34F1 /* Services */,
+				578FFAAF26EAC315002D34F1 /* Errors */,
+				578FFAB126EAC365002D34F1 /* Modules */,
+				578FFAB626EAC3D7002D34F1 /* Resources */,
+			);
+			path = AvitoTechIOS;
+			sourceTree = "<group>";
+		};
+		578FFAA826EAC2C5002D34F1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				578FFA6626E89010002D34F1 /* AppDelegate.swift */,
 				578FFA6826E89010002D34F1 /* SceneDelegate.swift */,
-				578FFA6A26E89010002D34F1 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		578FFAAA26EAC2EA002D34F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				578FFA8C26E9DF36002D34F1 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		578FFAAC26EAC301002D34F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				578FFA8F26E9E14D002D34F1 /* EmployeeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		578FFAAF26EAC315002D34F1 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				578FFA9326E9EA36002D34F1 /* Errors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		578FFAB126EAC365002D34F1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				578FFAB526EAC39A002D34F1 /* Storyboard */,
+				578FFAB326EAC384002D34F1 /* Cell */,
+				578FFA6A26E89010002D34F1 /* EmployeesViewController.swift */,
+				578FFA9726EA0F63002D34F1 /* EmployeesPresenter.swift */,
+				578FFA9B26EA0F91002D34F1 /* EmployeesInteractor.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		578FFAB326EAC384002D34F1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				578FFA8626E8F813002D34F1 /* EmployeeCell.swift */,
+				578FFA8726E8F813002D34F1 /* EmployeeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		578FFAB526EAC39A002D34F1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				578FFA6C26E89010002D34F1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		578FFAB626EAC3D7002D34F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				578FFA6F26E89011002D34F1 /* Assets.xcassets */,
 				578FFA7126E89011002D34F1 /* LaunchScreen.storyboard */,
 				578FFA7426E89011002D34F1 /* Info.plist */,
 			);
-			path = AvitoTechIOS;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				578FFA7326E89011002D34F1 /* LaunchScreen.storyboard in Resources */,
+				578FFA8926E8F813002D34F1 /* EmployeeCell.xib in Resources */,
 				578FFA7026E89011002D34F1 /* Assets.xcassets in Resources */,
 				578FFA6E26E89010002D34F1 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578FFA6B26E89010002D34F1 /* ViewController.swift in Sources */,
+				578FFA6B26E89010002D34F1 /* EmployeesViewController.swift in Sources */,
+				578FFA9026E9E14D002D34F1 /* EmployeeService.swift in Sources */,
+				578FFA8826E8F813002D34F1 /* EmployeeCell.swift in Sources */,
 				578FFA6726E89010002D34F1 /* AppDelegate.swift in Sources */,
 				578FFA6926E89010002D34F1 /* SceneDelegate.swift in Sources */,
+				578FFA8D26E9DF36002D34F1 /* Models.swift in Sources */,
+				578FFA9826EA0F63002D34F1 /* EmployeesPresenter.swift in Sources */,
+				578FFA9C26EA0F91002D34F1 /* EmployeesInteractor.swift in Sources */,
+				578FFA9426E9EA36002D34F1 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDJ4RL6V3L;
-				INFOPLIST_FILE = AvitoTechIOS/Info.plist;
+				INFOPLIST_FILE = AvitoTechIOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDJ4RL6V3L;
-				INFOPLIST_FILE = AvitoTechIOS/Info.plist;
+				INFOPLIST_FILE = AvitoTechIOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
